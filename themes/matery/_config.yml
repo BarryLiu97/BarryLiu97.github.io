@@ -17,6 +17,9 @@ menu:
       - name: 项目
         url: /project
         icon: fab fa-python
+      - name: 随笔
+        url: /essay
+        icon: fas fa-pencil-alt
   关于我:
     url: /about
     icon: fas fa-user-circle
@@ -513,14 +516,13 @@ addthis:
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
   enable: true
-  loop: true # 是否循环
-  showCursor: true # 是否显示光标
+  loop: false # 是否循环
+  showCursor: false # 是否显示光标
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  backSpeed: 0 # 删除速度
   sub:
-    - 从来没有真正的绝境, 只有心灵的迷途
-    - Never really desperate, only the lost of the soul
+    - 眼前两碗米饭，心中一粒飞鸿
 
 # 手机二级菜单.
 navMenu:
