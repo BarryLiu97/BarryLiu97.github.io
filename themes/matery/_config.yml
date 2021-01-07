@@ -20,6 +20,9 @@ menu:
       - name: 随笔
         url: /essay
         icon: fas fa-pencil-alt
+  Archives:
+    url: /archives
+    icon: fas fa-archive
   关于我:
     url: /about
     icon: fas fa-user-circle
@@ -296,8 +299,8 @@ disqus:
 # Livere comment configuration, the default is not activated
 # Livere 来必力评论模块的配置，默认为不激活
 livere:
-  enable: false
-  uid:
+  enable: true
+  uid: "MTAyMC81MjM5OS8yODg3Nw=="
 
 # The configuration of the Valine comment module is not activated by default.
 # To use it, activate the configuration item and set appId and appKey.
@@ -359,13 +362,13 @@ busuanziStatistics:
 # Add google analytics configuration
 # 添加 Google Analytics 配置
 googleAnalytics:
-  enable: false
+  enable: true
   id:
 
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: false
+  enable: true
   id:
 
 # 百度搜索资源平台提交链接
@@ -536,11 +539,11 @@ instantpage:
 # banner 是否每日切换.
 # 若为 false, 则 banner 默认为 /medias/banner/0.jpg
 banner:
-  enable: true
+  enable: false
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
+  enable: true
   url: # 备案链接
   text: # 备案信息
 
