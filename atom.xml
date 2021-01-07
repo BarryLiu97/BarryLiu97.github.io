@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>刘政の博客</title>
+  
+  <subtitle>刘政の博客</subtitle>
+  <link href="https://barryliu97.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://barryliu97.github.io/"/>
+  <updated>2021-01-07T05:03:16.141Z</updated>
+  <id>https://barryliu97.github.io/</id>
+  
+  <author>
+    <name>Barry Liu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>first</title>
+    <link href="https://barryliu97.github.io/posts/39056.html"/>
+    <id>https://barryliu97.github.io/posts/39056.html</id>
+    <published>2021-01-07T05:02:06.000Z</published>
+    <updated>2021-01-07T05:03:16.141Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;just-a-test&quot;&gt;&lt;a href=&quot;#just-a-test&quot; class=&quot;headerlink&quot; title=&quot;just a test&quot;&gt;&lt;/a&gt;just a test&lt;/h1&gt;&lt;pre class=&quot; language-python&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://barryliu97.github.io/posts/16107.html"/>
+    <id>https://barryliu97.github.io/posts/16107.html</id>
+    <published>2021-01-06T14:17:43.338Z</published>
+    <updated>2021-01-07T04:51:35.167Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
