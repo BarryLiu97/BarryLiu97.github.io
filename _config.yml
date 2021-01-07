@@ -5,7 +5,7 @@ keywords: null
 author: Barry Liu
 language: zh-CN
 timezone: ''
-url: 'https://barryliu97.github.io/'
+url: 'http://liuz97.top/'
 root: /
 # permalink: ':year/:month/:day/:title/'
 permalink: posts/:abbrlink.html
@@ -62,10 +62,6 @@ include: null
 exclude: null
 ignore: null
 theme: matery
-deploy:
-  type: git
-  repo: 'git@github.com:BarryLiu97/BarryLiu97.github.io.git'
-  branch: master
 prism_plugin:
   mode: preprocess
   theme: tomorrow
@@ -101,9 +97,16 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
+deploy:
+  type: git
+  repo: 
+    github: 'git@github.com:BarryLiu97/BarryLiu97.github.io.git'
+    gitee: 'git@gitee.com:BarryLiu_97/barryliu_97.git'
+  branch: master
 backup:
   type: git
   theme: matery
   message: Back up
   repository:
     github: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
+    gitee: git@gitee.com:BarryLiu_97/barryliu_97.git, hexo
