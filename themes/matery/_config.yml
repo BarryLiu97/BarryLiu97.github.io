@@ -4,19 +4,19 @@ menu:
   首页:
     url: /
     icon: fas fa-home
-  # 标签:
-    # url: /tags
-    # icon: fas fa-tags
+  标签:
+    url: /tags
+    icon: fas fa-tags
   分类:
     url: /categories
     icon: fas fa-bookmark
     children:
       - name: 算法
         url: /algorithm
-        icon: fas fa-music
+        icon: fas fa-laptop-code
       - name: 项目
         url: /project
-        icon: fas fa-music
+        icon: fab fa-python
   关于我:
     url: /about
     icon: fas fa-user-circle
