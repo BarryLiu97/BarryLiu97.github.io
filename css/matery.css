@@ -294,6 +294,7 @@ header .brand-logo .logo-img {
     height: 45px;
     vertical-align: middle;
     padding-bottom: 6px;
+	/* display: none; */
 }
 
 header .brand-logo .logo-span {
@@ -745,10 +746,10 @@ header .go-back i {
         padding: 10px 10px;
     }
     .bg-cover .title {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 	header .brand-logo .logo-span {
-        font-size: 1.5rem;
+        font-size: 1.0rem;
     }
 }
 
@@ -2144,4 +2145,10 @@ footer .copy-right {
     height: 50px;
     padding: 0;
     margin: 0;
+}
+
+#busuanzi_container_site_pv,
+#busuanzi_value_site_pv,
+#busuanzi_container_site_uv{
+   display: inline !important;
 }
