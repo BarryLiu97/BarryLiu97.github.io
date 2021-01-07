@@ -109,4 +109,4 @@ backup:
   message: Back up
   repository:
     github: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
-    gitee: git@gitee.com:BarryLiu_97/barryliu_97.git,hexo
+    gitee: https://gitee.com/BarryLiu_97/barryliu_97.git,hexo
