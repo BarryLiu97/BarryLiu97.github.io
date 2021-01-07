@@ -744,6 +744,12 @@ header .go-back i {
     .index-card .card .card-content {
         padding: 10px 10px;
     }
+    .bg-cover .title {
+        font-size: 2.5rem;
+    }
+	header .brand-logo .logo-span {
+        font-size: 1.5rem;
+    }
 }
 
 /*中等屏幕下(平板类)的样式*/
