@@ -100,14 +100,14 @@ githubEmojis:
 deploy:
 - type: git
   repo: 
-    github: 'git@github.com:BarryLiu97/BarryLiu97.github.io.git'
-    gitee: 'git@gitee.com:BarryLiu_97/barryliu_97.git'
-    coding: 'git@e.coding.net:barryliu97/coding-devops-guide/BarryLiu97.git'
+    github: git@github.com:BarryLiu97/BarryLiu97.github.io.git
+    gitee: git@gitee.com:BarryLiu_97/barryliu_97.git
+    coding: git@e.coding.net:barryliu97/coding-devops-guide/BarryLiu97.git
   branch: master
 backup:
-  type: git
+- type: git
   theme: matery
-  message: Back up
+  message: back up
   repository: 
     github: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
     gitee: git@gitee.com:BarryLiu_97/barryliu_97.git,hexo
