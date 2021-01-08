@@ -109,5 +109,5 @@ backup:
   theme: matery
   message: Back up
   repository: 
-    coding: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
+    github: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
 
