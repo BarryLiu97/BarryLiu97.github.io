@@ -105,9 +105,10 @@ deploy:
     coding: 'git@e.coding.net:barryliu97/coding-devops-guide/barryliu97.git'
   branch: master
 backup:
-- type: git
+  type: git
   theme: matery
   message: Back up
   repository: 
     github: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
     coding: git@e.coding.net:barryliu97/coding-devops-guide/barryliu97.git,hexo
+
