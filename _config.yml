@@ -109,7 +109,7 @@ backup:
   type: git
   theme: matery
   message: back up
-  repository: 
+  repo: 
     github: git@github.com:BarryLiu97/blog.git,hexo
     # gitee: git@gitee.com:BarryLiu_97/barryliu_97.git,hexo
     # coding: git@e.coding.net:barryliu97/coding-devops-guide/BarryLiu97.git,hexo
