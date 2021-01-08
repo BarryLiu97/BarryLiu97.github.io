@@ -5,7 +5,7 @@ keywords: null
 author: Barry Liu
 language: zh-CN
 timezone: ''
-url: 'http://liuz97.top/'
+url: https://liuz97.top/
 root: /
 # permalink: ':year/:month/:day/:title/'
 permalink: posts/:abbrlink.html
@@ -104,13 +104,20 @@ deploy:
     gitee: git@gitee.com:BarryLiu_97/barryliu_97.git
     coding: git@e.coding.net:barryliu97/coding-devops-guide/BarryLiu97.git
   branch: master
+- type: baidu_url_submitter
 backup:
 - type: git
   theme: matery
   message: back up
   repository: 
-    github: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
-    gitee: git@gitee.com:BarryLiu_97/barryliu_97.git,hexo
-    coding: git@e.coding.net:barryliu97/coding-devops-guide/BarryLiu97.git,hexo
+    github: git@github.com:BarryLiu97/blog.git
+    # gitee: git@gitee.com:BarryLiu_97/barryliu_97.git
+    # coding: git@e.coding.net:barryliu97/coding-devops-guide/BarryLiu97.git
 
 # 出现 does not appear to be a git repository时，要git add remote XX git@XXX
+baidu_url_submit:
+  count: 80             # 提交最新的一个链接
+  host: www.sunhwee.com # 在百度站长平台中注册的域名
+  token: xxxxxxxxxxxxxx # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt  # 文本文档的地址， 新链接会保存在此文本文档里
+
