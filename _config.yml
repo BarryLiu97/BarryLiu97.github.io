@@ -110,5 +110,7 @@ backup:
   message: Back up
   repository: 
     github: git@github.com:BarryLiu97/BarryLiu97.github.io.git,hexo
+    gitee: git@gitee.com:BarryLiu_97/barryliu_97.git,hexo
     coding: git@e.coding.net:barryliu97/coding-devops-guide/barryliu97.git,hexo
 
+# 出现 does not appear to be a git repository时，要git add remote XX git@XXX
